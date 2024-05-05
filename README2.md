@@ -2,7 +2,7 @@
 
 ここでは、操作方法での解説説明を、後で復習して見返せるように画像と文章を通じて載せています。
 
-## 目次
+## 目次<a id="anchor99"></a>
 - [Spring Initializrでの登録操作とプロジェクトの起動操作、プロジェクトの初期設定](#anchor1)
 - [依存関係の追加に伴うライブラリーのダウンロードの操作](#anchor2)
 - [.DS_Storeのコード表記追加](#anchor3)
@@ -130,3 +130,8 @@ git commit -m "DB周りの環境構築"
 git push origin head -u
 ```
 <img width="1129" alt="スクリーンショット 2024-05-02 21 30 57" src="https://github.com/koikekatsumi/nameservice4/assets/163390515/4bb7d6fc-d58c-44be-a650-0dadba149d03">
+
+
+
+
+[目次に戻る](#anchor99)
