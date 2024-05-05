@@ -6,10 +6,10 @@
 - [Spring Initializrでの登録操作とプロジェクトの起動操作、プロジェクトの初期設定](#anchor1)
 - [依存関係の追加に伴うライブラリーのダウンロードの操作](#anchor2)
 - [.DS_Storeのコード表記追加](#anchor3)
-- [プロジェクトにDockerfileなどを配置](#anchor4)
-- [docker-compose.yml内の表記変更](#anchor5)
-- [sql/001-create-table-and-load-data.sql内の表記変更](#anchor6)
-- [Dockerによるコンテナ起動、データベースの中身の確認](#anchor7)
+- [DB周りの環境構築編　プロジェクトにDockerfileなどを配置](#anchor4)
+- [DB周りの環境構築編　docker-compose.yml内の表記変更](#anchor5)
+- [DB周りの環境構築編　sql/001-create-table-and-load-data.sql内の表記変更](#anchor6)
+- [DB周りの環境構築編　Dockerによるコンテナ起動、データベースの中身の確認](#anchor7)
 - [DB周りの環境構築編　githubにbranchとpush実施](#anchor8)
 - []
 - []
