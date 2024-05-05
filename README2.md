@@ -86,7 +86,8 @@ MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース�
 <a id="anchor6"></a>
 ### DB周りの環境構築編　sql/001-create-table-and-load-data.sql内の表記変更
 もし、TODOアプリを作りたいなどのアイデアがある場合は自分で考えたテーブルを作成してください。
-<img width="532" alt="スクリーンショット 2024-05-01 10 57 35" src="https://github.com/koikekatsumi/nameservice4-/assets/163390515/cc7c82af-da08-4d6a-a8be-a0f05ed08869">
+<img width="532" alt="スクリーンショット 2024-05-01 10 57 35" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/7be193db-9e3c-47d9-8445-2b9cb4392152">
+
 
 <a id="anchor7"></a>
 ### DB周りの環境構築編　githubにbranchとpush実施
