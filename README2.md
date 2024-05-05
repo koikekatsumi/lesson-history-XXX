@@ -9,8 +9,8 @@
 - [プロジェクトにDockerfileなどを配置](#anchor4)
 - [docker-compose.yml内の表記変更](#anchor5)
 - [sql/001-create-table-and-load-data.sql内の表記変更](#anchor6)
-- [DB周りの環境構築編　githubにbranchとpush実施](#anchor7)
-- []
+- [Dockerによるコンテナ起動、データベースの中身の確認](#anchor7)
+- [DB周りの環境構築編　githubにbranchとpush実施](#anchor8)
 - []
 - []
 - []
@@ -89,8 +89,19 @@ MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース�
 
 <img width="532" alt="スクリーンショット 2024-05-01 10 57 35" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/3d03c3d0-f07b-4f8b-87e9-496581f11262">
 
-
 <a id="anchor7"></a>
+### Dockerによるコンテナ起動、データベースの中身の確認
+ターミナルにて、下記の画像のコマンド入力
+
+<img width="1338" alt="スクリーンショット 2024-05-02 20 49 44" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/178f3bd4-00ec-4b57-95c2-f860f1e159f2">
+
+<img width="1348" alt="スクリーンショット 2024-05-02 21 18 06" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/cb8dc368-cefd-4f75-b413-fe5b37b52040">
+
+
+
+
+
+<a id="anchor8"></a>
 ### DB周りの環境構築編　githubにbranchとpush実施
 ターミナルにて、下記のコマンドを入力
 コマンドの各々の命令の意味あい
