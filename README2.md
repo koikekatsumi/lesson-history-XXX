@@ -90,16 +90,24 @@ MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース�
 <img width="532" alt="スクリーンショット 2024-05-01 10 57 35" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/3d03c3d0-f07b-4f8b-87e9-496581f11262">
 
 <a id="anchor7"></a>
-### Dockerによるコンテナ起動、データベースの中身の確認
+### DB周りの環境構築編　Dockerによるコンテナ起動とデータベースの中身の確認、Docker内のデータを確認
+#### Dockerによるコンテナ起動とデータベースの中身の確認
 ターミナルにて、下記の画像のコマンド入力
 
 <img width="1338" alt="スクリーンショット 2024-05-02 20 49 44" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/178f3bd4-00ec-4b57-95c2-f860f1e159f2">
 
 <img width="1348" alt="スクリーンショット 2024-05-02 21 18 06" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/cb8dc368-cefd-4f75-b413-fe5b37b52040">
 
+<img width="1004" alt="スクリーンショット 2024-05-02 21 53 48のコピー" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/82a926e0-2c9a-4a4d-a258-d938636c401b">
+
+<img width="1127" alt="スクリーンショット 2024-05-02 21 22 16" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/c8790e8e-5c5a-47b4-9e32-c2df24f3e626">
+
+#### Docker内のデータを確認
 
 
 
+
+<img width="1412" alt="スクリーンショット 2024-05-01 11 13 46" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/7b6ae2c3-d3b9-459f-a1c2-b1648cd101a9">
 
 <a id="anchor8"></a>
 ### DB周りの環境構築編　githubにbranchとpush実施
