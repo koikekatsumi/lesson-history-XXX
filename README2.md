@@ -131,6 +131,14 @@ MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース�
 
 <img width="1412" alt="スクリーンショット 2024-05-01 11 13 46" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/7b6ae2c3-d3b9-459f-a1c2-b1648cd101a9">
 
+データベースに追加でデータを入れたい時、下記の画像のように入れます。
+例
+```
+insert into names (name) values ("lisa");
+insert into names (name) values ("sofia");
+insert into names (name) values ("george");
+```
+
 <a id="anchor9"></a>
 ### DB周りの環境構築編　githubにbranchとpush実施
 ターミナルにて、下記のコマンドを入力
