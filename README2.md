@@ -149,7 +149,11 @@ git push origin head -u
 ```
 <img width="1129" alt="スクリーンショット 2024-05-02 21 30 57" src="https://github.com/koikekatsumi/nameservice4/assets/163390515/4bb7d6fc-d58c-44be-a650-0dadba149d03">
 
-DB周りの環境構築の概要、動作確認を記載後、レビューがOKの時、下記のように、マージ、プルリクエストを行う
+DB周りの環境構築の概要、動作確認を記載後、クリエイトプルリクエストを行う（正式には、ここで上長の判断を仰ぐ）
+
+![スクリーンショット 2024-05-06 16 56 38](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/37a53b13-2111-4a40-95c9-47a5b5bd713e)
+
+その後、レビューがOKの時（正式には、ここで上長の判断で承認されれば）、下記のように、マージ、プルリクエストを行う
 
 ![スクリーンショット 2024-05-06 16 33 38](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/018eb09f-362e-4bca-a8fe-ec99545e2c66)
 
