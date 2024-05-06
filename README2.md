@@ -131,6 +131,9 @@ MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース�
 
 <img width="1412" alt="スクリーンショット 2024-05-01 11 13 46" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/7b6ae2c3-d3b9-459f-a1c2-b1648cd101a9">
 
+こうなったら、DELETEしましょう
+<img width="965" alt="スクリーンショット 2024-05-06 15 55 15" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/a1e561d4-5ae5-4494-a927-5743ff9a6a51">
+
 <a id="anchor9"></a>
 ### DB周りの環境構築編　githubにbranchとpush実施
 ターミナルにて、下記のコマンドを入力
