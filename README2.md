@@ -108,8 +108,11 @@ MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース�
 
 #### Docker内のデータを確認
 
+<img width="1253" alt="スクリーンショット 2024-05-06 14 34 46" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/96176068-d7b1-4066-a126-01f2a07cbb49">
 
+<img width="1244" alt="スクリーンショット 2024-05-06 14 34 37" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/90160f08-1cba-45ec-aeda-7d8821ceac83">
 
+<img width="1234" alt="スクリーンショット 2024-05-06 14 34 27" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/d1cfc38b-ff23-494d-bb71-5d65dfe06abc">
 
 <img width="1412" alt="スクリーンショット 2024-05-01 11 13 46" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/7b6ae2c3-d3b9-459f-a1c2-b1648cd101a9">
 
