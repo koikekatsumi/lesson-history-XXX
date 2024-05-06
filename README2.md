@@ -112,6 +112,11 @@ MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース�
 ### DB周りの環境構築編　Dockerによるコンテナ起動とデータベースの中身の確認、Docker内のデータを確認
 #### Dockerによるコンテナ起動とデータベースの中身の確認
 ターミナルにて、下記の画像のコマンド入力
+```
+docker compose up -d
+docker compose exec db mysql -uroot -p
+```
+passwordの入力　文字は、表示されない
 
 <img width="1338" alt="スクリーンショット 2024-05-02 20 49 44" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/178f3bd4-00ec-4b57-95c2-f860f1e159f2">
 
