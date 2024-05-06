@@ -121,6 +121,15 @@ MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース�
 
 <img width="1127" alt="スクリーンショット 2024-05-02 21 22 16" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/c8790e8e-5c5a-47b4-9e32-c2df24f3e626">
 
+データベースに追加でデータを入れたい時、下記の画像のように入れます。
+例
+```
+insert into names (name) values ("lisa");
+insert into names (name) values ("sofia");
+```
+
+<img width="827" alt="スクリーンショット 2024-05-06 17 27 15" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/849be546-f474-4d87-8a40-cd0bfee6099d">
+
 #### Docker内のデータを確認
 
 <img width="1253" alt="スクリーンショット 2024-05-06 14 34 46" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/96176068-d7b1-4066-a126-01f2a07cbb49">
@@ -131,13 +140,7 @@ MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース�
 
 <img width="1412" alt="スクリーンショット 2024-05-01 11 13 46" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/7b6ae2c3-d3b9-459f-a1c2-b1648cd101a9">
 
-データベースに追加でデータを入れたい時、下記の画像のように入れます。
-例
-```
-insert into names (name) values ("lisa");
-insert into names (name) values ("sofia");
-insert into names (name) values ("george");
-```
+
 
 <a id="anchor9"></a>
 ### DB周りの環境構築編　githubにbranchとpush実施
