@@ -49,6 +49,11 @@ git init
 echo "# nameservice4" >>README.md
 ls
 cat README.md
+```
+
+ここで、ターミナル上で、README.mdにプロジェクトの詳細を記載します。
+
+```
 git status
 git add .
 git commit -m "プロジェクトの初期設定"
