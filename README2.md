@@ -78,7 +78,7 @@ git commit -m "プロジェクトの初期設定"
 その後、github上で、リポジトリを作成
 下記のように、リポジトリーのpushコードをコピーして、ターミナルにて、コマンド実行します。
 
-![スクリーンショット 2024-05-06 15 45 58](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/46d715c8-684e-4a8f-9ead-3b6c2e5e5f27)
+![スクリーンショット 2024-05-06 15 45 58](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/88f95cee-8c94-448d-becb-6bbf4628fb37)
 
 <a id="anchor4"></a>
 ### 依存関係の追加に伴うライブラリーのダウンロードの操作
