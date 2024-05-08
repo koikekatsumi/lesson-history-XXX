@@ -215,8 +215,11 @@ javaのNameserviceApplicationをrun（起動）をして、正常動作するこ
 
 <a id="anchor11"></a>
 ### Controller作成とpostmanでの動作確認
+#### Controller作成
+<img width="1345" alt="スクリーンショット 2024-05-08 18 07 50" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/2c20523d-2c8c-444e-a83a-7d123741c8ec">
 
-
+#### postmanでの動作確認
+![スクリーンショット 2024-05-08 18 08 00](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/f99949af-286d-43ae-9512-c5e0dbbb5af6)
 
 
 
