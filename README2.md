@@ -178,7 +178,7 @@ DB周りの環境構築の概要、動作確認を記載後、クリエイトプ
 <img width="1008" alt="スクリーンショット 2024-05-06 16 34 50" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/b17f9eb1-5c3e-443d-ae12-0cdfe71bf366">
 
 <a id="anchor10"></a>
-### Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認
+### Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認、postmanにて通信接続確認
 #### Spring BootからMySQLに接続するための設定
 src/main/resources ディレクトリ配下にある application.properties へ次のような記述が必要で
 す。
@@ -188,7 +188,6 @@ spring.datasource.url=jdbc:mysql://localhost:{port番号}/{database名}
 spring.datasource.username={ユーザー名}
 
 spring.datasource.password={パスワード}
-
 
 ソースコード記入例
 ```
@@ -208,6 +207,11 @@ application.propertiesにて、赤枠にて入力
 javaのNameserviceApplicationをrun（起動）をして、正常動作することを確認する。下記のようになっていること
 
 <img width="1211" alt="スクリーンショット 2024-05-08 16 37 24" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/59b88600-5925-471b-9c2b-780e224c72cc">
+
+#### postmanにて通信接続確認
+
+![スクリーンショット 2024-05-08 17 33 31](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/c06b378a-cfcc-43bc-8c86-513cb1cb8f95)
+
 
 
 
