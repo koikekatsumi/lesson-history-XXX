@@ -14,7 +14,7 @@
 - [DB周りの環境構築編　githubにbranchとpush実施](#anchor9)
 - [Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認、postmanにて通信接続確認](#anchor10)
 - [Controller作成とpostmanでの動作確認](#anchor11)
-- []
+- [MyBatisを使ったファイルを作成](#anchor12)
 - []
 - []
 - []
@@ -221,7 +221,13 @@ javaのNameserviceApplicationをrun（起動）をして、正常動作するこ
 #### postmanでの動作確認
 ![スクリーンショット 2024-05-08 18 08 00](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/f99949af-286d-43ae-9512-c5e0dbbb5af6)
 
+<a id="anchor12"></a>
+### MyBatisを使ったファイルを作成
+
+<img width="1281" alt="スクリーンショット 2024-05-08 20 17 53" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/dff73481-7cb4-4209-a5c9-d99bded1e7dd">
 
 
+MyBatisではMapperと名付けますが、データベースとやり取りするためのモジュール
+は Repository という呼び方をすることが多いです。
 
 ### [目次に戻る](#anchor99)
