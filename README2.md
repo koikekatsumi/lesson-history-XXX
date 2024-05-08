@@ -213,9 +213,10 @@ javaのNameserviceApplicationをrun（起動）をして、正常動作するこ
 
 ![スクリーンショット 2024-05-08 17 33 31](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/c06b378a-cfcc-43bc-8c86-513cb1cb8f95)
 
+### [目次に戻る](#anchor99)
 <a id="anchor11"></a>
-### Controller作成とpostmanでの動作確認
-#### Controller作成
+### Controller作成（例　List返すコードを作成）とpostmanでの動作確認
+#### Controller作成　（例　List返すコードを作成）
 <img width="1345" alt="スクリーンショット 2024-05-08 18 07 50" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/2c20523d-2c8c-444e-a83a-7d123741c8ec">
 
 #### postmanでの動作確認
@@ -223,10 +224,12 @@ javaのNameserviceApplicationをrun（起動）をして、正常動作するこ
 
 <a id="anchor12"></a>
 ### MyBatisを使ったファイルを作成
-
+MyBatisではMapperと名付けますが、データベースとやり取りするためのモジュール
+は Repository という呼び方をすることが多いです。
+画像のように、Interfaceを作成
 <img width="1281" alt="スクリーンショット 2024-05-08 20 17 53" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/dff73481-7cb4-4209-a5c9-d99bded1e7dd">
 
-
+次に下記のように、コードを記入
 ```
 @Mapper // MyBatisのMapperである⽬印として@Mapperアノテーションを付与する
 public interface NameMapper { // classではなくinterfaceで定義する
@@ -236,7 +239,6 @@ public interface NameMapper { // classではなくinterfaceで定義する
 ```
 
 
-MyBatisではMapperと名付けますが、データベースとやり取りするためのモジュール
-は Repository という呼び方をすることが多いです。
+
 
 ### [目次に戻る](#anchor99)
