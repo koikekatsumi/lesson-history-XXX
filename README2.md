@@ -227,6 +227,15 @@ javaのNameserviceApplicationをrun（起動）をして、正常動作するこ
 <img width="1281" alt="スクリーンショット 2024-05-08 20 17 53" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/dff73481-7cb4-4209-a5c9-d99bded1e7dd">
 
 
+```
+@Mapper // MyBatisのMapperである⽬印として@Mapperアノテーションを付与する
+public interface NameMapper { // classではなくinterfaceで定義する
+ @Select("SELECT * FROM names")
+ List<Name> findAll();
+}
+```
+
+
 MyBatisではMapperと名付けますが、データベースとやり取りするためのモジュール
 は Repository という呼び方をすることが多いです。
 
