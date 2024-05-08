@@ -192,7 +192,7 @@ spring.datasource.password={パスワード}
 ソースコード記入例
 ```
 spring.datasource.url=jdbc:mysql://localhost:{3306}/{name_database}
-spring.datasource.username={USER}
+spring.datasource.username={user}
 spring.datasource.password={password}
 ```
 
