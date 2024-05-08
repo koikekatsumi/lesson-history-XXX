@@ -207,5 +207,8 @@ application.propertiesにて、赤枠にて入力
 #### Spring BootからMySQLに接続確認
 javaのNameserviceApplicationをrun（起動）をして、正常動作することを確認する。下記のようになっていること
 
+<img width="1211" alt="スクリーンショット 2024-05-08 16 37 24" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/59b88600-5925-471b-9c2b-780e224c72cc">
 
-[目次に戻る](#anchor99)
+
+
+                                                         [目次に戻る](#anchor99)
