@@ -200,7 +200,7 @@ spring.datasource.password={password}
 
 ｄocker compose_ymlのファイルを参照する
 <img width="1361" alt="スクリーンショット 2024-05-07 23 25 25" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/0d6f8f13-4035-42ed-9889-e89df582ef68">
-application.propertiesにて、コードを書く
+application.propertiesにて、赤枠にて入力
 <img width="1364" alt="スクリーンショット 2024-05-07 23 34 32" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/0c7bef88-1281-4cfc-a635-a1354013a542">
 
 
