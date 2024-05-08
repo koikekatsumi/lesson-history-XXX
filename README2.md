@@ -178,7 +178,8 @@ DB周りの環境構築の概要、動作確認を記載後、クリエイトプ
 <img width="1008" alt="スクリーンショット 2024-05-06 16 34 50" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/b17f9eb1-5c3e-443d-ae12-0cdfe71bf366">
 
 <a id="anchor10"></a>
-### Spring BootからMySQLに接続するための設定
+### Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認
+#### Spring BootからMySQLに接続するための設定
 src/main/resources ディレクトリ配下にある application.properties へ次のような記述が必要で
 す。
 
@@ -203,6 +204,8 @@ spring.datasource.password={password}
 application.propertiesにて、赤枠にて入力
 <img width="1364" alt="スクリーンショット 2024-05-07 23 34 32" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/0c7bef88-1281-4cfc-a635-a1354013a542">
 
+#### Spring BootからMySQLに接続確認
+javaのNameserviceApplicationをrun（起動）をして、正常動作することを確認する。下記のようになっていること
 
 
 [目次に戻る](#anchor99)
