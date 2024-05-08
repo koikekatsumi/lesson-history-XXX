@@ -12,7 +12,7 @@
 - [DB周りの環境構築編　sql/001-create-table-and-load-data.sql内の表記変更](#anchor7)
 - [DB周りの環境構築編　Dockerによるコンテナ起動、データベースの中身の確認](#anchor8)
 - [DB周りの環境構築編　githubにbranchとpush実施](#anchor9)
-- []
+- [Spring BootからMySQLに接続するための設定](#anchor10)
 - []
 - []
 - []
@@ -176,5 +176,22 @@ DB周りの環境構築の概要、動作確認を記載後、クリエイトプ
 ![スクリーンショット 2024-05-06 16 34 14](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/eb5a382c-5225-47d8-a39b-05c44c7e7d17)
 
 <img width="1008" alt="スクリーンショット 2024-05-06 16 34 50" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/b17f9eb1-5c3e-443d-ae12-0cdfe71bf366">
+
+<a id="anchor10"></a>
+### Spring BootからMySQLに接続するための設定
+src/main/resources ディレクトリ配下にある application.properties へ次のような記述が必要で
+す。
+
+spring.datasource.url=jdbc:mysql://localhost:{port番号}/{database名}
+spring.datasource.username={ユーザー名}
+spring.datasource.password={パスワード}
+
+記入例
+
+```
+spring.datasource.url=jdbc:mysql://localhost:{3306}/{name_database}
+spring.datasource.username={USER}
+spring.datasource.password={password}
+```
 
 [目次に戻る](#anchor99)
