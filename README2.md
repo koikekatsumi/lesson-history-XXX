@@ -185,6 +185,7 @@ src/main/resources ディレクトリ配下にある application.properties へ�
 spring.datasource.url=jdbc:mysql://localhost:{port番号}/{database名}
 
 spring.datasource.username={ユーザー名}
+
 spring.datasource.password={パスワード}
 
 記入例
