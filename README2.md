@@ -12,7 +12,7 @@
 - [DB周りの環境構築編　sql/001-create-table-and-load-data.sql内の表記変更](#anchor7)
 - [DB周りの環境構築編　Dockerによるコンテナ起動、データベースの中身の確認](#anchor8)
 - [DB周りの環境構築編　githubにbranchとpush実施](#anchor9)
-- [Spring BootからMySQLに接続するための設定](#anchor10)
+- [Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認、postmanにて通信接続確認](#anchor10)
 - []
 - []
 - []
