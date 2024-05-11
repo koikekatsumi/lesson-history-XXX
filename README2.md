@@ -205,7 +205,8 @@ spring.datasource.password={password}
 
 application.propertiesにて、赤枠にて入力
 
-![Uploading スクリーンショット 2024-05-11 20.25.39.png…]()
+<img width="1274" alt="スクリーンショット 2024-05-11 20 25 39" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/8f6a7883-1dc9-458f-99d9-ee87c094840f">
+
 
 
 #### Spring BootからMySQLに接続確認
