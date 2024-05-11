@@ -237,10 +237,10 @@ JSON形式の記述例は、下記
 MyBatisではMapperと名付けますが、データベースとやり取りするためのモジュール
 は Repository という呼び方をすることが多いです。
 
-①下記の画像のように、Interfaceを作成
+#### 下記の画像のように、Interfaceを作成
 <img width="1281" alt="スクリーンショット 2024-05-08 20 17 53" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/dff73481-7cb4-4209-a5c9-d99bded1e7dd">
 
-②次に下記のように、コードを記入
+#### 次に下記のように、コードを記入
 ```
 @Mapper // MyBatisのMapperである⽬印として@Mapperアノテーションを付与する
 public interface NameMapper { // classではなくinterfaceで定義する
