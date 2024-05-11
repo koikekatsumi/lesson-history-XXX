@@ -228,6 +228,7 @@ javaのNameserviceApplicationをrun（起動）をして、正常動作するこ
 ![スクリーンショット 2024-05-08 18 08 00](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/f99949af-286d-43ae-9512-c5e0dbbb5af6)
 
 JSON形式の記述例は、下記
+
 ![スクリーンショット 2024-05-12 2 55 11](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/c3c2772a-dc2c-4137-9cf2-eb8f5cb017e7)
 
 
