@@ -200,8 +200,11 @@ spring.datasource.password={password}
 <img width="1303" alt="スクリーンショット 2024-05-07 23 08 06" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/316cb7d9-7ff0-4924-bb53-80a51d25e22b">
 
 ｄocker compose_ymlのファイルを参照する
+
 <img width="1361" alt="スクリーンショット 2024-05-07 23 25 25" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/0d6f8f13-4035-42ed-9889-e89df582ef68">
+
 application.propertiesにて、赤枠にて入力
+
 ![Uploading スクリーンショット 2024-05-11 20.25.39.png…]()
 
 
