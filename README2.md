@@ -301,6 +301,7 @@ Curlをコピーする
 <img width="1221" alt="スクリーンショット 2024-05-12 17 41 40" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/1ef81795-aec2-47d6-82bc-a1ae4ef4b832">
 
 さらに、Curｌ　のコピーペーストしたもの後に、＋　-i で詳細な動作も確認できる
+<img width="1281" alt="スクリーンショット 2024-05-12 17 42 09" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/9b09f575-db5d-4046-a0c0-e705f9d671b7">
 
 
 
