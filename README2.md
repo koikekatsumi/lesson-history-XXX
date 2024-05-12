@@ -254,7 +254,7 @@ public interface NameMapper { // classではなくinterfaceで定義する
 <a id="anchor13"></a>
 
 ### Entity作成
-上の③の手順↑から
+上の画像③の手順↑のことから、、、
 
 NameMapperのメソッドの返り値として定義しているNameはデータベースのレコードに対応しています。
 言い換えると、データベースのテーブル構造を表したオブジェクトだと考えてください。
