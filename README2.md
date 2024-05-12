@@ -292,7 +292,7 @@ Entity（エンティティ）は文脈により違うものを表すことが�
 ![スクリーンショット 2024-05-12 12 48 17](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/2d9e78eb-a2d9-49fd-912c-c7568fc3cc8b)
 
 データベースにデータを追加した時は、下記のようになっていることを確認
-![スクリーンショット 2024-05-12 17 19 15](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/e42f765a-a768-4651-92b2-5ddc8280c637)
+![スクリーンショット 2024-05-12 17 24 01](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/106ea379-0cab-4b15-a122-75f60af430ab)
 
 
 <a id="anchor50"></a>
