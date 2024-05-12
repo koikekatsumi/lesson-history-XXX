@@ -253,7 +253,8 @@ public interface NameMapper { // classではなくinterfaceで定義する
 }
 ```
 
-<img width="1362" alt="スクリーンショット 2024-05-12 2 38 32" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/e4332940-29b0-4e27-98e4-5645bec00c7d">
+<img width="1362" alt="スクリーンショット 2024-05-12 2 38 32" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/1691f525-3548-4a05-947d-77def251d90e">
+
 
 <a id="anchor13"></a>
 
