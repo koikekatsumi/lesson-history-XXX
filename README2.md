@@ -16,8 +16,8 @@
 - [Read処理実装編　　Controller作成とpostmanでの動作確認](#anchor11)
 - [Read処理実装編　　MyBatisを使ったファイルを作成](#anchor12)
 - [Read処理実装編　　Entity作成](#anchor13)
-- [postmanのCurlにて実行確認](#anchor14)
-- []
+- [Read処理実装編　postmanのCurlにて実行確認](#anchor14)
+- [Read処理実装編　クエリ文字列を指定して検索するAPIを実装](#anchor15)
 - []
 - []
 - []
@@ -303,6 +303,8 @@ Curlをコピーする
 さらに、Curｌ　のコピーペーストしたもの後に、＋　-i で詳細な動作も確認できる
 <img width="1281" alt="スクリーンショット 2024-05-12 17 42 09" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/9b09f575-db5d-4046-a0c0-e705f9d671b7">
 
+<a id="anchor15"></a>
+### Read処理実装編　クエリ文字列を指定して検索するAPIを実装
 
 
 <a id="anchor50"></a>
