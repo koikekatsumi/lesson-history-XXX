@@ -133,7 +133,10 @@ passwordの入力　文字は、表示されない
 
 データベースに追加でデータを入れたい時、下記の画像のように入れます。
 例
+後で、データベースに追加する時、先にデータベースに接続
 ```
+docker compose exec db mysql -uroot -p
+passworｄ
 use name_database;
 show tables;
 ```
@@ -142,6 +145,11 @@ insert into names (name) values ("lisa");
 ```
 ```
 insert into names (name) values ("sofia");
+```
+
+データベ入力後、データベースを確認する
+```
+select * from names;
 ```
 
 <img width="827" alt="スクリーンショット 2024-05-06 17 27 15" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/849be546-f474-4d87-8a40-cd0bfee6099d">
