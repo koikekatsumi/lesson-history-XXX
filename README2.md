@@ -93,7 +93,6 @@ git commit -m "プロジェクトの初期設定"
 
 ![2024-04-29_20 50 04のコピー](https://github.com/koikekatsumi/nameservice4-/assets/163390515/9b2f9760-cae0-4f7c-8f93-d222958937d7)
 
-
 <a id="anchor5"></a>
 ### DB周りの環境構築編　プロジェクトにDockerfileなどを配置
 
@@ -161,8 +160,6 @@ select * from names;
 
 <img width="1412" alt="スクリーンショット 2024-05-01 11 13 46" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/7b6ae2c3-d3b9-459f-a1c2-b1648cd101a9">
 
-
-
 <a id="anchor9"></a>
 ### DB周りの環境構築編　githubにbranchとpush実施
 ターミナルにて、下記のコマンドを入力
@@ -222,8 +219,6 @@ application.propertiesにて、赤枠にて入力
 
 <img width="1274" alt="スクリーンショット 2024-05-11 20 25 39" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/8f6a7883-1dc9-458f-99d9-ee87c094840f">
 
-
-
 #### Spring BootからMySQLに接続確認
 javaのNameserviceApplicationをrun（起動）をして、正常動作することを確認する。下記のようになっていること
 
@@ -246,7 +241,6 @@ JSON形式の記述例は、下記
 
 ![スクリーンショット 2024-05-12 2 55 11](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/c3c2772a-dc2c-4137-9cf2-eb8f5cb017e7)
 
-
 <a id="anchor12"></a>
 ### Read処理実装編　MyBatisを使ったファイルを作成
 MyBatisではMapperと名付けますが、データベースとやり取りするためのモジュール
@@ -265,9 +259,6 @@ public interface NameMapper { // classではなくinterfaceで定義する
 ```
 
 <img width="1362" alt="スクリーンショット 2024-05-12 2 38 32" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/bc299c40-503d-4047-9729-9c7a835ae3a8">
-
-
-
 
 <a id="anchor13"></a>
 
@@ -288,11 +279,18 @@ Entity（エンティティ）は文脈により違うものを表すことが�
 #### postmanにて、確認する
 
 ![スクリーンショット 2024-05-11 20 26 58](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/fda2882c-6637-41fd-9a47-d05927bfb87d)
-
 ![スクリーンショット 2024-05-12 12 48 17](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/2d9e78eb-a2d9-49fd-912c-c7568fc3cc8b)
 
 データベースにデータを追加した時は、下記のようになっていることを確認とJSON形式の記述になっていることを確認する
 ![スクリーンショット 2024-05-12 17 24 01](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/106ea379-0cab-4b15-a122-75f60af430ab)
+
+### Curlでの実行確認
+postmanにて、Curlをコピーする
+![スクリーンショット 2024-05-12 17 38 59](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/a0dad65c-8262-436f-a8e1-cc804c60f14b)
+![スクリーンショット 2024-05-12 17 38 46](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/51f59933-1baa-40f3-9df1-9f6687f9aae7)
+
+ターミナルにて、Curlを貼り付けして確認
+
 
 
 <a id="anchor50"></a>
