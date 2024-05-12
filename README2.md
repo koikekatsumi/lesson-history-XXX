@@ -13,9 +13,9 @@
 - [DB周りの環境構築編　Dockerによるコンテナ起動、データベースの中身の確認](#anchor8)
 - [DB周りの環境構築編　githubにbranchとpush実施](#anchor9)
 - [Read処理実装編　Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認、postmanにて通信接続確認](#anchor10)
-- [Read処理を実装　Controller作成とpostmanでの動作確認](#anchor11)
-- [Read処理を実装　MyBatisを使ったファイルを作成](#anchor12)
-- [Read処理を実装　Entity作成](#anchor13)
+- [Read処理実装編　　Controller作成とpostmanでの動作確認](#anchor11)
+- [Read処理実装編　　MyBatisを使ったファイルを作成](#anchor12)
+- [Read処理実装編　　Entity作成](#anchor13)
 - []
 - []
 - []
