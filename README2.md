@@ -23,7 +23,7 @@
 - []
 - []
 - []
-- []
+- [コンパイルエラー解決方法](#anchor50)
 
 <a id="anchor1"></a>
 ### Spring Initializrでの登録操作とプロジェクトの起動操作
@@ -272,5 +272,18 @@ Entity（エンティティ）は文脈により違うものを表すことが�
 
 <img width="1353" alt="スクリーンショット 2024-05-12 10 19 59" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/3e7648f2-4b02-42e3-83d0-11992deb103d">
 
+
+
+
+
+
+
+
+
+
+
+<a id="anchor50"></a>
+
+<img width="1319" alt="スクリーンショット 2024-05-12 12 07 51" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/199f05ca-963a-42fd-8e8f-b5955254b163">
 
 ### [目次に戻る](#anchor99)
