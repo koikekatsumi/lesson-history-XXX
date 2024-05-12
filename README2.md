@@ -134,7 +134,13 @@ passwordの入力　文字は、表示されない
 データベースに追加でデータを入れたい時、下記の画像のように入れます。
 例
 ```
+use name_database;
+show tables;
+```
+```
 insert into names (name) values ("lisa");
+```
+```
 insert into names (name) values ("sofia");
 ```
 
