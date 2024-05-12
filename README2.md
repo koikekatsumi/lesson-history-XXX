@@ -131,8 +131,8 @@ passwordの入力　文字は、表示されない
 
 <img width="1127" alt="スクリーンショット 2024-05-02 21 22 16" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/c8790e8e-5c5a-47b4-9e32-c2df24f3e626">
 
-データベースに追加でデータを入れたい時、下記の画像のように入れます。
-例
+データベースに追加でデータを入れたい時、下記の画像例のように入れます。
+
 後で、データベースに追加する時、先にデータベースに接続
 ```
 docker compose exec db mysql -uroot -p
