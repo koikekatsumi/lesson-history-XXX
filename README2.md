@@ -261,6 +261,7 @@ Entity（エンティティ）は文脈により違うものを表すことが�
 するものとして定義します。
 データベースの1行を1インスタンスと対応させるためのクラスが「 Entityクラス 」となります。
 
+<img width="1353" alt="スクリーンショット 2024-05-12 10 19 59" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/3e7648f2-4b02-42e3-83d0-11992deb103d">
 
 
 ### [目次に戻る](#anchor99)
