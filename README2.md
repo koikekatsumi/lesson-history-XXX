@@ -143,10 +143,6 @@ show tables;
 ```
 insert into names (name) values ("lisa");
 ```
-```
-insert into names (name) values ("sofia");
-```
-
 データベ入力後、データベースを確認する
 ```
 select * from names;
