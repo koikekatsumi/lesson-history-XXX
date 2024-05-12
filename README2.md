@@ -287,11 +287,13 @@ Entity（エンティティ）は文脈により違うものを表すことが�
 <a id="anchor14"></a>
 ### postmanのCurlにて実行確認
 postmanにて、Curlをコピーする
-![スクリーンショット 2024-05-12 17 38 46](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/51f59933-1baa-40f3-9df1-9f6687f9aae7)
-![スクリーンショット 2024-05-12 17 38 59](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/a0dad65c-8262-436f-a8e1-cc804c60f14b)
+![スクリーンショット 2024-05-12 17 38 46](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/8e58824e-818e-492d-b52a-2051ebd438de)
+
+
+<img width="1221" alt="スクリーンショット 2024-05-12 17 41 40" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/1ef81795-aec2-47d6-82bc-a1ae4ef4b832">
 
 #### ターミナルにて、Curlを貼り付けして確認
-<img width="1221" alt="スクリーンショット 2024-05-12 17 41 40" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/1ef81795-aec2-47d6-82bc-a1ae4ef4b832">
+
 
 さらに、Curｌ　のコピーペーストしたもの後に、＋　-i で詳細な動作も確認できる
 
