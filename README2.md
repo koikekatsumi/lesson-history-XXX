@@ -16,7 +16,7 @@
 - [Read処理実装編　　Controller作成とpostmanでの動作確認](#anchor11)
 - [Read処理実装編　　MyBatisを使ったファイルを作成](#anchor12)
 - [Read処理実装編　　Entity作成](#anchor13)
-- []
+- [postmanのCurlにて実行確認](#anchor14)
 - []
 - []
 - []
@@ -284,12 +284,16 @@ Entity（エンティティ）は文脈により違うものを表すことが�
 データベースにデータを追加した時は、下記のようになっていることを確認とJSON形式の記述になっていることを確認する
 ![スクリーンショット 2024-05-12 17 24 01](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/106ea379-0cab-4b15-a122-75f60af430ab)
 
-### Curlでの実行確認
+<a id="anchor14"></a>
+### postmanのCurlにて実行確認
 postmanにて、Curlをコピーする
 ![スクリーンショット 2024-05-12 17 38 59](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/a0dad65c-8262-436f-a8e1-cc804c60f14b)
 ![スクリーンショット 2024-05-12 17 38 46](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/51f59933-1baa-40f3-9df1-9f6687f9aae7)
 
-ターミナルにて、Curlを貼り付けして確認
+#### ターミナルにて、Curlを貼り付けして確認
+<img width="1221" alt="スクリーンショット 2024-05-12 17 41 40" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/1ef81795-aec2-47d6-82bc-a1ae4ef4b832">
+
+さらに、Curｌ　のコピーペーストしたもの後に、＋　-i で詳細な動作も確認できる
 
 
 
