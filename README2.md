@@ -136,7 +136,7 @@ passwordの入力　文字は、表示されない
 後で、データベースに追加する時、先にデータベースに接続
 ```
 docker compose exec db mysql -uroot -p
-passworｄ
+passworｄ　　//passworｄ名を入力
 use name_database;
 show tables;
 ```
