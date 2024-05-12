@@ -12,10 +12,10 @@
 - [DB周りの環境構築編　sql/001-create-table-and-load-data.sql内の表記変更](#anchor7)
 - [DB周りの環境構築編　Dockerによるコンテナ起動、データベースの中身の確認](#anchor8)
 - [DB周りの環境構築編　githubにbranchとpush実施](#anchor9)
-- [Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認、postmanにて通信接続確認](#anchor10)
-- [Controller作成とpostmanでの動作確認](#anchor11)
-- [MyBatisを使ったファイルを作成](#anchor12)
-- [Entity作成](#anchor13)
+- [Read処理実装編　Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認、postmanにて通信接続確認](#anchor10)
+- [Read処理を実装　Controller作成とpostmanでの動作確認](#anchor11)
+- [Read処理を実装　MyBatisを使ったファイルを作成](#anchor12)
+- [Read処理を実装　Entity作成](#anchor13)
 - []
 - []
 - []
@@ -183,7 +183,7 @@ DB周りの環境構築の概要、動作確認を記載後、クリエイトプ
 <img width="1008" alt="スクリーンショット 2024-05-06 16 34 50" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/b17f9eb1-5c3e-443d-ae12-0cdfe71bf366">
 
 <a id="anchor10"></a>
-### Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認、postmanにて通信接続確認
+### Read処理実装編　Spring BootからMySQLに接続するための設定とSpring BootからMySQLに接続確認、postmanにて通信接続確認
 #### Spring BootからMySQLに接続するための設定
 src/main/resources ディレクトリ配下にある application.properties へ次のような記述が必要で
 す。
@@ -224,7 +224,7 @@ javaのNameserviceApplicationをrun（起動）をして、正常動作するこ
 
 ### [目次に戻る](#anchor99)
 <a id="anchor11"></a>
-### Controller作成（例　List返すコードを作成）とpostmanでの動作確認
+### Read処理実装編　Controller作成（例　List返すコードを作成）とpostmanでの動作確認
 #### Controller作成　（例　List返すコードを作成）
 <img width="1345" alt="スクリーンショット 2024-05-08 18 07 50" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/2c20523d-2c8c-444e-a83a-7d123741c8ec">
 
@@ -237,7 +237,7 @@ JSON形式の記述例は、下記
 
 
 <a id="anchor12"></a>
-### MyBatisを使ったファイルを作成
+### Read処理実装編　MyBatisを使ったファイルを作成
 MyBatisではMapperと名付けますが、データベースとやり取りするためのモジュール
 は Repository という呼び方をすることが多いです。
 
@@ -260,7 +260,7 @@ public interface NameMapper { // classではなくinterfaceで定義する
 
 <a id="anchor13"></a>
 
-### Entity作成
+### Read処理実装編　Entity作成
 上の画像③の手順↑のことから、、、
 
 NameMapperのメソッドの返り値として定義しているNameはデータベースのレコードに対応しています。
