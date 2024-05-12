@@ -287,9 +287,11 @@ Entity（エンティティ）は文脈により違うものを表すことが�
 <a id="anchor14"></a>
 ### postmanのCurlにて実行確認
 postmanにて、クリックする
+
 ![スクリーンショット 2024-05-12 17 38 46](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/8e58824e-818e-492d-b52a-2051ebd438de)
 
 Curlをコピーする
+
 ![スクリーンショット 2024-05-12 17 38 59](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/aa8d47cd-1596-4d5f-82d7-aafe0279c634)
 
 
