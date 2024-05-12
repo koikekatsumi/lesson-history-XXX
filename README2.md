@@ -272,9 +272,11 @@ Entity（エンティティ）は文脈により違うものを表すことが�
 
 <img width="1353" alt="スクリーンショット 2024-05-12 10 19 59" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/3e7648f2-4b02-42e3-83d0-11992deb103d">
 
+<img width="1370" alt="スクリーンショット 2024-05-12 2 41 02" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/226584cb-a9c3-4f49-b6e8-3c5b98af2cb6">
 
+#### postmanにて、確認する
 
-
+![スクリーンショット 2024-05-11 20 26 58](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/fda2882c-6637-41fd-9a47-d05927bfb87d)
 
 
 
