@@ -305,7 +305,10 @@ Curlをコピーする
 
 メソッド：GET
 
-パス：```/names?startsWith={param}```
+パス
+```
+/names?startsWith={param}
+```
 
 説明：startsWithで指定した文字列で始まる名前を取得する
 
