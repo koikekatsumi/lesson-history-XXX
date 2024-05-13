@@ -294,9 +294,6 @@ Curlをコピーする
 
 ![スクリーンショット 2024-05-12 17 38 59](https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/aa8d47cd-1596-4d5f-82d7-aafe0279c634)
 
-
-
-
 #### ターミナルにて、Curlを貼り付けして確認
 <img width="1221" alt="スクリーンショット 2024-05-12 17 41 40" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/1ef81795-aec2-47d6-82bc-a1ae4ef4b832">
 
@@ -306,7 +303,11 @@ Curlをコピーする
 <a id="anchor15"></a>
 ### Read処理実装編　クエリ文字列を指定して検索するAPIを実装
 
+メソッド：GET
 
+パス：```/names?startsWith={param}```
+
+説明：startsWithで指定した文字列で始まる名前を取得する
 
 
 
