@@ -310,12 +310,16 @@ findByNameStartingWithというメソッドを作成します。
 @Select("SELECT * FROM names")
  List<Name> findAll();
 上記こコードだと、全てのデータをRead処理してしまう為、削除
-下記のような、コードにして、クエリ文字列を指定して検索するAPIを実装します
+下記のような、コードを加えて、クエリ文字列を指定して検索するAPIを実装します
 
 ```
 @Select("SELECT * FROM names WHERE name LIKE CONCAT(#{prefix}, '%')")
-        List<Name> findByNameStartingWith(String prefix);
+List<Name> findByNameStartingWith(String prefix);
 ```
+
+基本的な使い方は以下の通りです。
+
+SELECT [表示要素] FROM [テーブル名] WHERE [要素名] LIKE [曖昧検索の条件];
 
 
 
