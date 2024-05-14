@@ -302,7 +302,24 @@ Curlをコピーする
 
 <a id="anchor15"></a>
 ### Read処理実装編　クエリ文字列を指定して検索するAPIを実装
+#### クエリ文字列を指定して検索するAPIを実装のためのコード作成
+Mapperを作成します。
+findByNameStartingWithというメソッドを作成します。
+前方一致で検索するために、SQLのLIKE句を使います。
 
+@Select("SELECT * FROM names")
+ List<Name> findAll();
+上記こコードだと、全てのデータをRead処理してしまう為、削除
+下記のような、コードにして、クエリ文字列を指定して検索するAPIを実装します
+
+```
+@Select("SELECT * FROM names WHERE name LIKE CONCAT(#{prefix}, '%')")
+        List<Name> findByNameStartingWith(String prefix);
+```
+
+
+
+#### postmanにて検索結果表示
 メソッド：GET
 
 パス
@@ -311,7 +328,6 @@ Curlをコピーする
 ```
 /names?startsWith={param}
 ```
-
 説明：startsWithで指定した文字列で始まる名前を取得する
 
 レスポンスのステータスコードは200、レスポンスボディは下記のようなものとします。
@@ -324,7 +340,6 @@ Curlをコピーする
 ]
 ````
 検索結果がない場合は、空の配列を返却します。
-
 []
 
 
