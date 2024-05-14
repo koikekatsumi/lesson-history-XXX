@@ -306,6 +306,8 @@ Curlをコピーする
 メソッド：GET
 
 パス
+paramの部分に、アルファベットの最初の文字を入力　例　a
+
 ```
 /names?startsWith={param}
 ```
