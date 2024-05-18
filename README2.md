@@ -44,6 +44,7 @@ Macに隠しファイル（不可視ファイル）があるのは重要なデ�
 尚、インテリジェイには、デフォルト設定されてない為、追加します。
 
 .gitigone にて.DS_Storeのコードを追加
+
 <img width="807" alt="スクリーンショット 2024-05-02 20 22 44" src="https://github.com/koikekatsumi/nameservice4-/assets/163390515/bbc47e5c-6e33-46a6-bfd5-0031d979a0b5">
 
 <a id="anchor3"></a>
