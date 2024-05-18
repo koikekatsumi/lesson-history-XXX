@@ -247,7 +247,8 @@ javaのNameserviceApplicationをrun（起動）をして、正常動作するこ
 MyBatisではMapperと名付けますが、データベースとやり取りするためのモジュール
 は Repository という呼び方をすることが多いです。
 
-#### 下記の画像のように、Interfaceを作成
+#### 下記の画像のように、Interfaceを作成 
+※キャメルソースでファイル名を作成　　　例NameMapper
 <img width="1281" alt="スクリーンショット 2024-05-08 20 17 53" src="https://github.com/koikekatsumi/lesson-history-XXX/assets/163390515/dff73481-7cb4-4209-a5c9-d99bded1e7dd">
 
 #### 次に下記のように、コードを記入
