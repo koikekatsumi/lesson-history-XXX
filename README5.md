@@ -9,7 +9,7 @@
 
 <img width="527" alt="スクリーンショット 2024-05-01 10 57 27" src="https://github.com/koikekatsumi/nameservice4-/assets/163390515/90077847-be25-4252-9fed-7226b514fb80">
 
-### [目次に戻る](#anchor99)
+
 <a id="anchor6"></a>
 ### DB周りの環境構築編　docker-compose.yml内の表記変更
 MYSQL_DATABASE は自分が扱いたいものに合わせたデータベース名にしましょう。
